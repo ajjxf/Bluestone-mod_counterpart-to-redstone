@@ -1,0 +1,20 @@
+{
+    "itemgroup.bluestone.bluestone": "蓝石方块",
+    "item.bluestone.bluestone": "蓝石",
+    "item.bluestone.purplestone": "紫石",
+    "block.bluestone.purplestone_wire": "紫石粉",
+    "item.bluestone.bluestone_torch": "蓝石火把",
+    "item.bluestone.bluestone_repeater": "蓝石中继器",
+    "item.bluestone.bluestone_comparator": "蓝石比较器",
+    "item.bluestone.bluestone_block": "蓝石块",
+    "block.bluestone.bluestone_wire": "蓝石粉",
+    "block.bluestone.bluestone_torch": "蓝石火把",
+    "block.bluestone.bluestone_wall_torch": "墙上蓝石火把",
+    "block.bluestone.bluestone_repeater": "蓝石中继器",
+    "block.bluestone.bluestone_comparator": "蓝石比较器",
+    "block.bluestone.bluestone_block": "蓝石块",
+    "block.bluestone.bluestone_ore": "蓝石矿石",
+    "block.bluestone.deepslate_bluestone_ore": "深层蓝石矿石",
+    "item.bluestone.converter_repeater": "红蓝信号转换器",
+    "block.bluestone.converter_repeater": "红蓝信号转换器"
+}

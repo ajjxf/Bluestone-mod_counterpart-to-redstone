@@ -1,0 +1,20 @@
+{
+    "itemgroup.bluestone.bluestone": "Bluestone Block",
+    "item.bluestone.bluestone": "Bluestone",
+    "item.bluestone.purplestone": "Purplestone",
+    "block.bluestone.purplestone_wire": "Purplestone",
+    "item.bluestone.bluestone_torch": "Bluestone Torch",
+    "item.bluestone.bluestone_repeater": "Bluestone Repeater",
+    "item.bluestone.bluestone_comparator": "Bluestone Comparator",
+    "item.bluestone.bluestone_block": "Block of Bluestone",
+    "block.bluestone.bluestone_wire": "Bluestone Wire",
+    "block.bluestone.bluestone_torch": "Bluestone Torch",
+    "block.bluestone.bluestone_wall_torch": "Bluestone Wall Torch",
+    "block.bluestone.bluestone_repeater": "Bluestone Repeater",
+    "block.bluestone.bluestone_comparator": "Bluestone Comparator",
+    "block.bluestone.bluestone_block": "Block of Bluestone",
+    "block.bluestone.bluestone_ore": "Bluestone Ore",
+    "block.bluestone.deepslate_bluestone_ore": "Deepslate Bluestone Ore",
+    "item.bluestone.converter_repeater": "Redstone-Bluestone Signal Converter",
+    "block.bluestone.converter_repeater": "Redstone-Bluestone Signal Converter"
+}
