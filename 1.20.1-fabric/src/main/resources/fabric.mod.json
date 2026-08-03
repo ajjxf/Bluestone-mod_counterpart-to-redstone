@@ -1,0 +1,38 @@
+{
+    "schemaVersion": 1,
+    "id": "bluestone",
+    "version": "${version}",
+    "name": "Bluestone",
+    "description": "A blue counterpart to redstone. Adds bluestone wire, repeater, comparator, torch and block - a fully isolated parallel power system that does not interact with redstone.",
+    "authors": [
+        "Bluestone"
+    ],
+    "contact": {
+        "homepage": "https://example.invalid/",
+        "sources": "https://example.invalid/"
+    },
+    "license": "MIT",
+    "icon": "assets/bluestone/icon.png",
+    "environment": "*",
+    "entrypoints": {
+        "main": [
+            "com.bluestone.BluestoneMod"
+        ],
+        "client": [
+            "com.bluestone.client.BluestoneClientMod"
+        ]
+    },
+    "mixins": [
+        "bluestone.mixins.json",
+        {
+            "config": "bluestone.client.mixins.json",
+            "environment": "client"
+        }
+    ],
+    "depends": {
+        "fabricloader": ">=0.14.21",
+        "minecraft": "~1.20.1",
+        "java": ">=17",
+        "fabric-api": "*"
+    }
+}

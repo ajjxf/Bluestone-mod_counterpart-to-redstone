@@ -1,0 +1,43 @@
+{
+    "parent": "minecraft:recipes/root",
+    "criteria": {
+        "has_quartz": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": ["minecraft:quartz"]
+                    }
+                ]
+            }
+        },
+        "has_bluestone_torch": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": ["bluestone:bluestone_torch"]
+                    }
+                ]
+            }
+        },
+        "has_bluestone": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": ["bluestone:bluestone"]
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        ["has_quartz", "has_bluestone_torch", "has_bluestone"]
+    ],
+    "rewards": {
+        "recipes": [
+            "bluestone:bluestone_comparator"
+        ]
+    }
+}
