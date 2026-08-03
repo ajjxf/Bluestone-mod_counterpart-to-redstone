@@ -5,11 +5,12 @@
     "name": "Bluestone",
     "description": "A blue counterpart to redstone. Adds bluestone wire, repeater, comparator, torch and block - a fully isolated parallel power system that does not interact with redstone.",
     "authors": [
-        "Bluestone"
+        "ajjxf"
     ],
     "contact": {
-        "homepage": "https://example.invalid/",
-        "sources": "https://example.invalid/"
+        "homepage": "https://github.com/ajjxf/Bluestone-mod_counterpart-to-redstone",
+        "sources": "https://github.com/ajjxf/Bluestone-mod_counterpart-to-redstone",
+        "issues": "https://github.com/ajjxf/Bluestone-mod_counterpart-to-redstone/issues"
     },
     "license": "MIT",
     "icon": "assets/bluestone/icon.png",
@@ -30,7 +31,7 @@
         }
     ],
     "depends": {
-        "fabricloader": ">=0.14.21",
+        "fabricloader": ">=0.15.11",
         "minecraft": "~1.20.1",
         "java": ">=17",
         "fabric-api": "*"
