@@ -88,11 +88,13 @@ public class PurplestoneWireBlock extends BluestoneWireBlock {
     @Override
     protected boolean connectsTo(BlockState state, Direction dir) {
         if (state.isOf(Blocks.REDSTONE_WIRE)) return true;
-        // Vanilla redstone gates: connect if facing toward/away from us
-        if (state.isOf(Blocks.REPEATER) || state.isOf(Blocks.COMPARATOR)) {
+        // Vanilla repeater: connect only on input/output sides
+        if (state.isOf(Blocks.REPEATER)) {
             Direction d = state.get(Properties.HORIZONTAL_FACING);
             return d == dir || d.getOpposite() == dir;
         }
+        // Vanilla comparator: connect from all sides
+        if (state.isOf(Blocks.COMPARATOR)) return dir != null;
         // Converter repeater: same gate-facing rule
         if (state.getBlock() instanceof ConverterRepeaterBlock) {
             Direction d = state.get(Properties.HORIZONTAL_FACING);

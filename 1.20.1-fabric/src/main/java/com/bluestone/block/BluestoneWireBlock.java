@@ -246,11 +246,13 @@ public class BluestoneWireBlock extends Block {
         if (state.isOf(ModBlocks.BLUESTONE_WIRE)) return true;
         if (state.isOf(ModBlocks.PURPLESTONE_WIRE)) return true;
         Block b = state.getBlock();
-        if (b instanceof BluestoneRepeaterBlock || b instanceof BluestoneComparatorBlock
-                || b instanceof ConverterRepeaterBlock) {
+        // Repeater & converter: connect only on input/output sides (like vanilla repeater)
+        if (b instanceof BluestoneRepeaterBlock || b instanceof ConverterRepeaterBlock) {
             Direction d = state.get(Properties.HORIZONTAL_FACING);
             return d == dir || d.getOpposite() == dir;
         }
+        // Comparator: connect from all sides (like vanilla comparator)
+        if (b instanceof BluestoneComparatorBlock) return dir != null;
         if (b instanceof BluestoneTorchBlock || b instanceof BluestoneWallTorchBlock || b instanceof BluestoneBlock) return dir != null;
         // Neutral sources connect (lever, button, etc.) — but NOT the observer (it shouldn't change wire shape)
         if (b == Blocks.OBSERVER) return false;
