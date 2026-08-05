@@ -138,7 +138,14 @@ public class BluestoneComparatorBlock extends AbstractRedstoneGateBlock {
         int i = this.calculateOutputSignal(world, pos, state);
         boolean powered = this.hasPower(world, pos, state);
         if (i != state.get(OUTPUT) || state.get(Properties.POWERED) != powered) {
-            world.scheduleBlockTick(pos, this, 2);
+            // Use the same TickPriority ladder as vanilla AbstractRedstoneGateBlock.updatePowered
+            net.minecraft.world.tick.TickPriority tickPriority = net.minecraft.world.tick.TickPriority.HIGH;
+            if (this.isTargetNotAligned(world, pos, state)) {
+                tickPriority = net.minecraft.world.tick.TickPriority.EXTREMELY_HIGH;
+            } else if (powered) {
+                tickPriority = net.minecraft.world.tick.TickPriority.VERY_HIGH;
+            }
+            world.scheduleBlockTick(pos, this, 2, tickPriority);
         }
     }
 
