@@ -1,0 +1,32 @@
+modLoader = "javafml"
+loaderVersion = "${loader_version_range}"
+license = "BSD-3-Clause"
+issueTrackerURL = "https://github.com/ajjxf/Bluestone-mod_counterpart-to-redstone/issues"
+
+[[mods]]
+modId = "${mod_id}"
+version = "${mod_version}"
+displayName = "${mod_name}"
+authors = "${mod_authors}"
+description = '''
+${mod_description}
+'''
+logoFile = "META-INF/icon.png"
+
+# Dependency range: one jar compiled against 1.20.1/Forge 47.x loads on 1.20.1 - 1.20.4.
+[[dependencies.bluestone]]
+modId = "forge"
+mandatory = true
+versionRange = "[47,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.bluestone]]
+modId = "minecraft"
+mandatory = true
+versionRange = "[1.20.1,1.20.5)"
+ordering = "NONE"
+side = "BOTH"
+
+# NOTE: In Forge 1.20.1, mixin configs are NOT registered here (the [[mixins]] block is
+# NeoForge-only). They are registered via the jar manifest attribute 'MixinConfigs' in build.gradle.

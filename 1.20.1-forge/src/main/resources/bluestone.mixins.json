@@ -1,0 +1,20 @@
+{
+    "required": true,
+    "minVersion": "0.8",
+    "package": "com.bluestone.mixin",
+    "compatibilityLevel": "JAVA_17",
+    "mixins": [
+        "RedstoneViewMixin",
+        "RedstoneWireBlockMixin",
+        "RedstoneWireBlockAccessor",
+        "RedstoneTorchBlockMixin",
+        "RedstoneWallTorchBlockMixin",
+        "ObserverBlockMixin",
+        "SculkSensorBlockMixin",
+        "LeverBlockMixin"
+    ],
+    "injectors": {
+        "defaultRequire": 1
+    },
+    "refmap": "bluestone.refmap.json"
+}
