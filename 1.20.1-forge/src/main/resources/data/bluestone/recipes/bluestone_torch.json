@@ -1,0 +1,9 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": ["X", "Y"],
+    "key": {
+        "X": { "item": "bluestone:bluestone" },
+        "Y": { "item": "minecraft:stick" }
+    },
+    "result": { "item": "bluestone:bluestone_torch", "count": 1 }
+}

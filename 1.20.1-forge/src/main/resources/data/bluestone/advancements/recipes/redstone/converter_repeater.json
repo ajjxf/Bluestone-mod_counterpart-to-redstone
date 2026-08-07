@@ -1,0 +1,33 @@
+{
+    "parent": "minecraft:recipes/root",
+    "criteria": {
+        "has_bluestone_torch": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": ["bluestone:bluestone_torch"]
+                    }
+                ]
+            }
+        },
+        "has_purplestone": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": ["bluestone:purplestone"]
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        ["has_bluestone_torch", "has_purplestone"]
+    ],
+    "rewards": {
+        "recipes": [
+            "bluestone:converter_repeater"
+        ]
+    }
+}

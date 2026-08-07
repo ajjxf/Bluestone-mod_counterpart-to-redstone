@@ -1,0 +1,13 @@
+{
+    "replace": false,
+    "values": [
+        "bluestone:bluestone_wire",
+        "bluestone:bluestone_torch",
+        "bluestone:bluestone_wall_torch",
+        "bluestone:bluestone_repeater",
+        "bluestone:bluestone_comparator",
+        "bluestone:bluestone_block",
+        "bluestone:bluestone_ore",
+        "bluestone:deepslate_bluestone_ore"
+    ]
+}
