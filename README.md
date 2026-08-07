@@ -131,4 +131,4 @@ Bluestone 是红石的蓝色镜像。添加了**蓝石粉/蓝石中继器/蓝石
 ### 已知限制
 - `BluestoneWireBlock` 是AI重写的实现，边缘情况（上台阶、点/线切换、更新顺序）可能需要微调以完美匹配原版。
 - 其他模组的红石组件未经过滤，可能与蓝石交叉干扰。
-- 性能：`World.isReceivingRedstonePower` 现在也计算蓝石能量，重型红石电路可能损耗更多性能。
+- 性能：`World.isReceivingRedstonePower` 现在也计算蓝石能量，将其应用到重型红石电路可能损耗/需要更多性能。
