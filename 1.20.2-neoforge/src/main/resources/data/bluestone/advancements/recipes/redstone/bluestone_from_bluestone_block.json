@@ -1,0 +1,23 @@
+{
+    "parent": "minecraft:recipes/root",
+    "criteria": {
+        "has_bluestone_block": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": ["bluestone:bluestone_block"]
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        ["has_bluestone_block"]
+    ],
+    "rewards": {
+        "recipes": [
+            "bluestone:bluestone_from_bluestone_block"
+        ]
+    }
+}

@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "redstone",
+    "key": {
+        "R": { "item": "minecraft:redstone_torch" },
+        "B": { "item": "bluestone:bluestone_torch" },
+        "I": { "item": "minecraft:stone" },
+        "X": { "item": "bluestone:purplestone" }
+    },
+    "pattern": [
+        "BXR",
+        "III"
+    ],
+    "result": {
+        "item": "bluestone:converter_repeater",
+        "count": 1
+    },
+    "show_notification": true
+}
