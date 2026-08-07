@@ -1,0 +1,96 @@
+{
+  "variants": {
+    "facing=down,powered=false,observed=0": {
+      "model": "minecraft:block/observer",
+      "x": 90
+    },
+    "facing=down,powered=false,observed=1": {
+      "model": "bluestone:block/observer_blue",
+      "x": 90
+    },
+    "facing=down,powered=true,observed=0": {
+      "model": "minecraft:block/observer_on",
+      "x": 90
+    },
+    "facing=down,powered=true,observed=1": {
+      "model": "bluestone:block/observer_blue_on",
+      "x": 90
+    },
+    "facing=east,powered=false,observed=0": {
+      "model": "minecraft:block/observer",
+      "y": 90
+    },
+    "facing=east,powered=false,observed=1": {
+      "model": "bluestone:block/observer_blue",
+      "y": 90
+    },
+    "facing=east,powered=true,observed=0": {
+      "model": "minecraft:block/observer_on",
+      "y": 90
+    },
+    "facing=east,powered=true,observed=1": {
+      "model": "bluestone:block/observer_blue_on",
+      "y": 90
+    },
+    "facing=north,powered=false,observed=0": {
+      "model": "minecraft:block/observer"
+    },
+    "facing=north,powered=false,observed=1": {
+      "model": "bluestone:block/observer_blue"
+    },
+    "facing=north,powered=true,observed=0": {
+      "model": "minecraft:block/observer_on"
+    },
+    "facing=north,powered=true,observed=1": {
+      "model": "bluestone:block/observer_blue_on"
+    },
+    "facing=south,powered=false,observed=0": {
+      "model": "minecraft:block/observer",
+      "y": 180
+    },
+    "facing=south,powered=false,observed=1": {
+      "model": "bluestone:block/observer_blue",
+      "y": 180
+    },
+    "facing=south,powered=true,observed=0": {
+      "model": "minecraft:block/observer_on",
+      "y": 180
+    },
+    "facing=south,powered=true,observed=1": {
+      "model": "bluestone:block/observer_blue_on",
+      "y": 180
+    },
+    "facing=up,powered=false,observed=0": {
+      "model": "minecraft:block/observer",
+      "x": 270
+    },
+    "facing=up,powered=false,observed=1": {
+      "model": "bluestone:block/observer_blue",
+      "x": 270
+    },
+    "facing=up,powered=true,observed=0": {
+      "model": "minecraft:block/observer_on",
+      "x": 270
+    },
+    "facing=up,powered=true,observed=1": {
+      "model": "bluestone:block/observer_blue_on",
+      "x": 270
+    },
+    "facing=west,powered=false,observed=0": {
+      "model": "minecraft:block/observer",
+      "y": 270
+    },
+    "facing=west,powered=false,observed=1": {
+      "model": "bluestone:block/observer_blue",
+      "y": 270
+    },
+    "facing=west,powered=true,observed=0": {
+      "model": "minecraft:block/observer_on",
+      "y": 270
+    },
+    "facing=west,powered=true,observed=1": {
+      "model": "bluestone:block/observer_blue_on",
+      "y": 270
+    }
+  }
+}

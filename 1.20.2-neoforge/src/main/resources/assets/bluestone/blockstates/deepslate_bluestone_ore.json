@@ -1,0 +1,6 @@
+{
+    "variants": {
+        "lit=false": { "model": "bluestone:block/deepslate_bluestone_ore" },
+        "lit=true": { "model": "bluestone:block/deepslate_bluestone_ore" }
+    }
+}
